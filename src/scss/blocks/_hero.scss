@@ -1,0 +1,25 @@
+.hero {
+    background-color: #999;
+    background-image: url('./../../img/hero/hero.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hero__inner {
+    padding: 300px 0 103px;
+}
+
+.hero-title {
+    width: 100%;
+    max-width: 494px;
+    height: 130px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 34px;
+    text-transform: capitalize;
+    margin-bottom: 27px;
+}
