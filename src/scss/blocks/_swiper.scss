@@ -1,0 +1,105 @@
+.swiper-wrapper {}
+
+.swiper-slide {}
+
+.pagination-bullets {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 20px;
+}
+
+.bullet {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #adadad;
+    z-index: 10;
+
+    cursor: pointer;
+}
+
+.bullet-Active {
+    background: #dfdfdf;
+}
+
+.swiper-slide {}
+
+.slide {}
+
+.slide-photo {
+    position: relative;
+    width: 100%;
+}
+
+.like {
+    position: absolute;
+    top: 26.8px;
+    right: 26px;
+    cursor: pointer;
+}
+
+.icon--favorite-slide {
+    width: 20px;
+    height: 20px;
+    fill: transparent;
+    stroke: #0c0c0c;
+
+    :hover {
+        fill: #c30000;
+        stroke: transparent;
+    }
+
+    &__liked {
+        fill: #c30000;
+        stroke: transparent;
+    }
+}
+
+.slide-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px;
+}
+
+.slide-info__description {
+    display: grid;
+    gap: 8px;
+}
+
+.slide-info__name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+
+.about__dress {
+    font-size: 16px;
+    line-height: 1.8;
+    text-transform: capitalize;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.color {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.price__dress {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.4;
+    text-transform: capitalize;
+    color: #0c0c0c;
+}

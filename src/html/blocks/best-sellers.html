@@ -1,0 +1,19 @@
+<section class="best-sellers">
+    <div class="container">
+        <div class="best-sellers__inner">
+            <div class="title">
+                <div class="section-title">best sellers</div>
+                <a href="!#" class="view-all">view all</a>
+            </div>
+            <div class="swiper best-sellers__slider">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    @@loop('./templates/swiper-slide.html', './../data/slides.json')
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="pagination-bullets"></div>
+            </div>
+        </div>
+    </div>
+</section>

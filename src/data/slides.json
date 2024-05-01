@@ -1,0 +1,51 @@
+[
+    {
+        "photo": "best-01",
+        "name": "tailored stretch",
+        "description": "turn it up pants",
+        "price": "180",
+        "color1": "0c0c0c",
+        "color2": "7dc3eb",
+        "color3": "748c70"
+    },{
+        "photo": "best-02",
+        "name": "Technical Silk",
+        "description": "Make A Splash",
+        "price": "120",
+        "color1": "909225",
+        "color2": "19418e",
+        "color3": "0c0c0c"
+    },{
+        "photo": "best-03",
+        "name": "Cool Weave",
+        "description": "Anywhere Dress",
+        "price": "210",
+        "color1": "d0a5ea",
+        "color2": "909225",
+        "color3": "748c70"
+    },{
+        "photo": "best-04",
+        "name": "Cool Dress",
+        "description": "Anywhere Dress",
+        "price": "210",
+        "color1": "fff",
+        "color2": "0c0c0c",
+        "color3": "748c70"
+    },{
+        "photo": "best-05",
+        "name": "Cool Blause",
+        "description": "Anywhere Dress",
+        "price": "210",
+        "color1": "7dc3eb",
+        "color2": "fff",
+        "color3": "748c70"
+    },{
+        "photo": "best-06",
+        "name": "Summer Dress",
+        "description": "Anywhere Dress",
+        "price": "210",
+        "color1": "fff",
+        "color2": "909225",
+        "color3": "748c70"
+    }
+]

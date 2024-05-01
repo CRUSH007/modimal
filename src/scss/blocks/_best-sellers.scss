@@ -1,0 +1,40 @@
+.best-sellers {}
+
+.container {}
+
+.best-sellers__inner {
+    padding: 88px 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.section-title {}
+
+.view-all {
+    font-size: 14px;
+    line-height: 1.71429;
+    text-transform: capitalize;
+    color: #5a6d57;
+    cursor: pointer;
+}
+
+.best-sellers__slider {
+    width: 100%;
+    max-width: 1224px;
+    height: 572px;
+}
+
+.swiper-wrapper {}
+
+.swiper-slide {}
+
+.swiper-pagination {}
+
+.swiper-button-prev {}
+
+.swiper-button-next {}
