@@ -1,0 +1,12 @@
+.collection {
+}
+
+.gallery__collection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: min(116vw, 1419px);
+    gap: 24px;
+    width: 50%;
+}

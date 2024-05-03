@@ -1,0 +1,10 @@
+<section class="collection">
+    <div class="container">
+        <div class="collection__inner">
+            <div class="section-title">Collection</div>
+            <div class="gallery__collection">
+                @@loop('./templates/card-gallery.html', './../data/collection.json')
+            </div>
+        </div>
+    </div>
+</section>

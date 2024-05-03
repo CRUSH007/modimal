@@ -18,11 +18,12 @@ import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
 // init Swiper:
-const swiper = new Swiper('.best-sellers__slider', {
+const swiper0 = new Swiper('.best-sellers__slider', {
 	// Optional parameters
 	loop: true,
 	slidesPerView: 3,
 	spaceBetween: 24,
+	autoplay: true,
 
 	pagination: {
 		el: ".pagination-bullets",
