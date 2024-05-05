@@ -7,6 +7,9 @@
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
+    @include tablet {
+        background-position: 28% center;
+    }
 }
 
 .hero__inner {
@@ -14,9 +17,8 @@
 }
 
 .hero-title {
-    width: 100%;
-    max-width: 494px;
-    height: 130px;
+    width: clamp(168px, 40%, 494px);
+    // max-width: 494px;
     font-style: italic;
     font-weight: 500;
     font-size: 34px;
