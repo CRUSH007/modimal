@@ -7,7 +7,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     height: min(115vw, 1419px);
-    
+    gap: 24px;
     width: 48%;
     @include mobile {
         height: min(125vw, 1419px);
@@ -16,5 +16,6 @@
     }
     @include mobile-s {
         height: min(150vw, 1419px);
+        gap: 12px;
     }
 }

@@ -44,6 +44,9 @@ pre.code {
 	height: 40px;
 	background: #fff;
     color: #0c0c0c;
+	@include mobile {
+		width: 68px;
+	}
 
 
 	font-size: 14px;
