@@ -1,106 +1,115 @@
-.swiper-wrapper {}
-
-.swiper-slide {}
+.swiper-wrapper {
+}
 
 .pagination-bullets {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    height: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 20px;
 }
 
 .bullet {
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: #adadad;
-    z-index: 10;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #adadad;
+  z-index: 10;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .bullet-Active {
-    background: #dfdfdf;
+  background: #dfdfdf;
 }
 
-.swiper-slide {}
+.swiper-slide {
+}
 
-.slide {}
+.slide {
+}
 
 .slide-photo {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .like {
-    position: absolute;
-    top: 26.8px;
-    right: 26px;
-    cursor: pointer;
+  position: absolute;
+  top: 26.8px;
+  right: 26px;
+  cursor: pointer;
+  @include mobile-s {
+      top: 10.8px;
+      right: 10px;
+  }
 }
 
 .icon--favorite-slide {
-    width: 20px;
-    height: 20px;
-    fill: transparent;
-    stroke: #0c0c0c;
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  stroke: #0c0c0c;
 
-    :hover {
-        fill: #c30000;
-        stroke: transparent;
-    }
+  :hover {
+    fill: #c30000;
+    stroke: transparent;
+  }
 
-    &__liked {
-        fill: #c30000;
-        stroke: transparent;
-    }
+  &__liked {
+    fill: #c30000;
+    stroke: transparent;
+  }
 }
 
 .slide-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px;
 }
 
 .slide-info__description {
-    display: grid;
-    gap: 8px;
+  display: grid;
+  gap: 8px;
 }
 
 .slide-info__name {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.4;
-    text-transform: capitalize;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.4;
+  text-transform: capitalize;
 }
 
 .about__dress {
-    font-size: 16px;
-    line-height: 1.8;
-    text-transform: capitalize;
+  font-size: 16px;
+  line-height: 1.8;
+  text-transform: capitalize;
 }
 
 .colors {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .color {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    border: thin solid rgba(0, 0, 0, 0.35);
-    cursor: pointer;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: thin solid rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  @include mobile {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .price__dress {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.4;
-    text-transform: capitalize;
-    color: #0c0c0c;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.4;
+  text-transform: capitalize;
+  color: #0c0c0c;
 }

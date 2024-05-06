@@ -27,7 +27,11 @@
 .best-sellers__slider {
     width: 100%;
     max-width: 1224px;
-    height: 572px;
+    height:  572px;
+    @include mobile-s {
+        height: 480px;
+    }
+
 }
 
 .swiper-wrapper {}
