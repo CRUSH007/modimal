@@ -36,6 +36,13 @@ pre.code {
 	border-radius: 4px;
 }
 
+
+section{
+	margin-top: 88px;
+@include mobile-s {
+	margin-top: 24px;
+}}
+
 .btn {
 	display: flex;
 	align-items: center;

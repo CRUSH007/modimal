@@ -1,38 +1,114 @@
 .mobile-nav {
-	position: fixed;
-	// top: 0;
-	top: -100%;
-	width: 100%;
-	height: 100%;
+    position: fixed;
+    top: -100%;
+    width: 100%;
+    height: 100%;
     z-index: 99;
 
-	display: flex;
+    overflow-y: auto;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-	justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 106px 20px 56px;
     // background: linear-gradient(209deg, #4287b3 -17.38%, #133f6b 78.4%), #276195;
-	background: #8ccae6;
-	transition: all 0.2s ease-in;
+    background: #fff;
+    transition: all 0.2s ease-in;
 }
 
 .mobile-nav--open {
-	top: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .mobile-nav a {
-	color: #fff;
+    color: #000000;
 }
 
-.mobile-nav__list {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	row-gap: 20px;
-	font-size: 28px;
+.mobile-nav__links {
+}
+.mobile-links {
+    display: grid;
+    gap: 32px;
+}
+.mobile-links__parent {
+    border-bottom: 1px solid var(--text-color);
+}
+.mobile-links__parent-btn {
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.mobile-links__parent-title {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--text-color);
+}
+.active .icon--arrow-down {
+    transform: rotate(180deg);
+}
+.icon--arrow-down {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.2s ease-in;
+}
 
-	& .active {
-		opacity: 0.5;
-	}
+.mobile-nav__btns {
+}
+.mobile-sub {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+}
+
+.mobile-sub-list {
+    display: grid;
+    gap: 16px;
+    padding: 24px 0 16px 35px;
+}
+.mobile-sub-list__item {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.mobile-sub-list__link {
+    display: inline-block;
+    width: 100%;
+    color: #404040;
+    padding-top: 7px;
+}
+
+.mobile-nav__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: auto;
+    padding-top: 14.5px;
+    border-top: 2px solid #CBCBCB;
+}
+.btn-outline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid #5a6d57;
+    padding: 16px;
+    width: 152px;
+    height: 40px;
+
+    font-size: 14px;
+    line-height: 171%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #5a6d57;
+
+    &:hover{
+        color: #404E3E;
+    }
+}
+.icon {
+}
+.btn-outline .icon--profile-icon {
+    width: 24px;
+    height: 25px;
 }

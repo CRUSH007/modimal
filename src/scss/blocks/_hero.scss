@@ -13,8 +13,15 @@
 }
 
 .hero__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 600px;
-    padding: 300px 0 0 0;
+    padding: 300px 0 103px 0;
+    @include mobile-s {
+        height: 551px;
+        padding: 300px 0 16px 0;
+    }
 }
 
 .hero-title {
